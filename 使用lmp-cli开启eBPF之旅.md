@@ -238,3 +238,5 @@ time pid tpid sig ret comm
 [eunomia-bpf: 一个ebpf程序动态加载框架](https://github.com/eunomia-bpf/eunomia-bpf)
 
 [LMP project: Linux 显微镜](https://github.com/linuxkerneltravel/lmp)
+
+[当 WASM 遇见 eBPF：使用 WebAssembly 编写、分发、加载运行 eBPF 程序 | 龙蜥技术](https://mp.weixin.qq.com/s/ryT7OqWngCjcCkfeSKjutA)
