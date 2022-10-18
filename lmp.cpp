@@ -8,7 +8,7 @@ using std::string;
 
 const string ECLI = "sudo EUNOMIA_REPOSITORY=https://linuxk"
                     "erneltravel.github.io/lmp/ EUNOMIA_HOM"
-                    "E=/home/ubuntu/.lmp/ ./ecli ";
+                    "E=/home/ubuntu/.lmp/ ecli ";
 const string DOCKER = "docker run -it -v `pwd`/:/src/ yunwe"
                     "i37/ebpm:latest ";
 
