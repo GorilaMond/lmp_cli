@@ -2,12 +2,12 @@
 
 A small program that can make the use of LMP more convenient.
 
-## Install
+## Dependency
 
+You can run commands below to install these dependencies.
 ```bash
 if [ -n "$(uname -i | grep x86)" ]; then
 	wget https://aka.pw/bpf-ecli -O ecli && chmod +x ecli && sudo mv ecil /usr/bin
-	wget https://github.com/GorilaMond/lmp_cli/releases/download/lmp/lmp -O lmp && chmod +x lmp && sudo mv lmp /usr/bin
 else
 	echo "Only support x86 plateform now."
 fi
@@ -16,9 +16,8 @@ if [ -z "$(docker -v | grep version)" ]; then
 fi
 ```
 
-## Dependency
-
-ecli https://github.com/eunomia-bpf/eunomia-bpf/tree/master/ecli#readme
+ecli
+https://github.com/eunomia-bpf/eunomia-bpf/tree/master/ecli#readme
 ```bash
 # download the release from https://github.com/eunomia-bpf/eunomia-bpf/releases/latest/download/ecli
 wget https://aka.pw/bpf-ecli -O ecli && chmod +x ecli && sudo mv ecil /usr/bin
