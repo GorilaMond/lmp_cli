@@ -2,6 +2,12 @@
 
 A small program that can make the use of LMP more convenient.
 
+## Make
+
+If you have cloned the repo and entered the lmp_cli directory, you can run `make` to build the program.Then, there is a executable file named lmp, you can use it by pointing it's path.
+After `make`, you could run `make install` to copy it to `/usr/bin`, so that you can run lmp any path.
+You can run `make uninstall` to delete it in `/usr/bin`, and run `make clean` to delete it in lmp_cli directory.
+
 ## Dependency
 
 You can run commands below to install these dependencies.
