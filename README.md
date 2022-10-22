@@ -10,17 +10,7 @@ You can run `make uninstall` to delete it in `/usr/bin`, and run `make clean` to
 
 ## Dependency
 
-You can run commands below to install these dependencies.
-```bash
-if [ -n "$(uname -i | grep x86)" ]; then
-	wget https://aka.pw/bpf-ecli -O ecli && chmod +x ecli && sudo mv ecil /usr/bin
-else
-	echo "Only support x86 plateform now."
-fi
-if [ -z "$(docker -v | grep version)" ]; then
-	curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
-fi
-```
+You can run the Dependency.sh script to install these dependencies.
 
 ecli
 https://github.com/eunomia-bpf/eunomia-bpf/tree/master/ecli#readme
